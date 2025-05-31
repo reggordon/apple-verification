@@ -2,3 +2,6 @@
   from = "/.well-known/apple-developer-merchantid-domain-association"
   to = "/well-known/apple-developer-merchantid-domain-association"
   status = 200
+[build]
+  command = ""  # No build step
+  publish = "." # Serve from root directory
